@@ -6,10 +6,11 @@ import {
   Github,
   Linkedin,
   Twitter,
+  Instagram,
 } from "lucide-react";
 
 const HeroSection = ({ data }) => {
-  const mockData = data.heroSection
+  const mockData = data.heroSection;
   return (
     <section
       id="hero"
@@ -79,25 +80,28 @@ const HeroSection = ({ data }) => {
             {/* Social Links */}
             <div className="flex justify-center lg:justify-start gap-4 mb-8">
               <a
-                href={mockData.social?.github}
+                href={mockData.github}
+                target="_blank"
                 className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
                 aria-label="GitHub"
               >
                 <Github size={20} />
               </a>
               <a
-                href={mockData.social?.linkedin}
+                href={mockData.linkedin}
+                target="_blank"
                 className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={20} />
               </a>
               <a
-                href={mockData.social?.twitter}
+                href={mockData.instagram}
+                target="_blank"
                 className="p-3 bg-white dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-slate-600 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400"
                 aria-label="Twitter"
               >
-                <Twitter size={20} />
+                <Instagram size={20} />
               </a>
             </div>
 

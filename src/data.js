@@ -20,6 +20,9 @@ export const portfolioData = {
     title: "Full Stack Developer",
     description:
       "Full stack developer . I have over 2 years of experience in web development, during which I have implemented several projects and learned a lot. I am proficient in various front-end and back-end web development technologies, including HTML, CSS, JavaScript, ReactJS, Tailwind, Bootstrap, Node.js, Express.js, MongoDB, And many other technologies.",
+    github: "https://github.com/josamcode/",
+    linkedin: "https://www.linkedin.com/in/gerges-samuel",
+    instagram: "https://www.instagram.com/gerges_s_gabra/",
   },
   aboutMe: {
     title: "ABOUT ME",
@@ -39,23 +42,89 @@ export const portfolioData = {
     ],
   },
   skills: [
-    { name: "HTML", percentage: "98", category: "frontend", icon: "code", isVisible: "true" },
+    {
+      name: "HTML",
+      percentage: "98",
+      category: "frontend",
+      icon: "code",
+      isVisible: "true",
+    },
     { name: "CSS", percentage: "96", category: "frontend", icon: "palette" },
-    { name: "JavaScript", percentage: "95", category: "frontend", icon: "terminal" },
+    {
+      name: "JavaScript",
+      percentage: "95",
+      category: "frontend",
+      icon: "terminal",
+    },
     { name: "React.JS", percentage: "94", category: "frontend", icon: "react" },
-    { name: "Tailwind CSS", percentage: "90", category: "frontend", icon: "wind" },
+    {
+      name: "Tailwind CSS",
+      percentage: "90",
+      category: "frontend",
+      icon: "wind",
+    },
     { name: "Node.JS", percentage: "95", category: "backend", icon: "server" },
-    { name: "Express.JS", percentage: "93", category: "backend", icon: "layout-template" },
-    { name: "MongoDB", percentage: "97", category: "database", icon: "database" },
+    {
+      name: "Express.JS",
+      percentage: "93",
+      category: "backend",
+      icon: "layout-template",
+    },
+    {
+      name: "MongoDB",
+      percentage: "97",
+      category: "database",
+      icon: "database",
+    },
     { name: "MySQL", percentage: "80", category: "database", icon: "table" },
-    { name: "PostgreSQL", percentage: "75", category: "database", icon: "table-properties" },
-    { name: "Mongoose", percentage: "95", category: "backend", icon: "git-branch" },
-    { name: "Sequelize", percentage: "55", category: "backend", icon: "git-merge" },
-    { name: "Git & GitHub", percentage: "92", category: "tools", icon: "git-branch" },
-    { name: "RESTful APIs", percentage: "94", category: "backend", icon: "link" },
-    { name: "JWT & Auth", percentage: "98", category: "security", icon: "lock" },
-    { name: "Performance Optimization", percentage: "99", category: "performance", icon: "gauge" },
-    { name: "SEO & Accessibility", percentage: "98", category: "frontend", icon: "search" },
+    {
+      name: "PostgreSQL",
+      percentage: "75",
+      category: "database",
+      icon: "table-properties",
+    },
+    {
+      name: "Mongoose",
+      percentage: "95",
+      category: "backend",
+      icon: "git-branch",
+    },
+    {
+      name: "Sequelize",
+      percentage: "55",
+      category: "backend",
+      icon: "git-merge",
+    },
+    {
+      name: "Git & GitHub",
+      percentage: "92",
+      category: "tools",
+      icon: "git-branch",
+    },
+    {
+      name: "RESTful APIs",
+      percentage: "94",
+      category: "backend",
+      icon: "link",
+    },
+    {
+      name: "JWT & Auth",
+      percentage: "98",
+      category: "security",
+      icon: "lock",
+    },
+    {
+      name: "Performance Optimization",
+      percentage: "99",
+      category: "performance",
+      icon: "gauge",
+    },
+    {
+      name: "SEO & Accessibility",
+      percentage: "98",
+      category: "frontend",
+      icon: "search",
+    },
   ],
   experienceEducation: [
     {
@@ -96,176 +165,204 @@ export const portfolioData = {
     categories: ["All", "web", "design", "editing", "content"],
     projects: [
       {
-        "title": "E-commerce with admin dashboard",
-        "description": "A full-stack e-commerce platform with an admin dashboard for managing products, orders, and users.",
-        "category": "web",
-        "image": "web/josam-ecommerce-with-admin-dashboard.png",
-        "link": "https://jo-ecommerce.vercel.app",
-        "github": "https://github.com/josamcode/last-frontend-ecommerce",
-        "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
+        title: "E-commerce with admin dashboard",
+        description:
+          "A full-stack e-commerce platform with an admin dashboard for managing products, orders, and users.",
+        category: "web",
+        image: "web/josam-ecommerce-with-admin-dashboard.png",
+        link: "https://jo-ecommerce.vercel.app",
+        github: "https://github.com/josamcode/last-frontend-ecommerce",
+        technologies: [
+          "React",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+        ],
       },
       {
-        "title": "Admin dashboard for ecommerce",
-        "description": "An admin dashboard for managing an e-commerce platform, featuring tools for product management, order tracking, and user administration.",
-        "category": "web",
-        "image": "web/josam-ecommerce-admin-dashboard.png",
-        "link": "https://jo-e-ad.vercel.app/",
-        "github": "https://github.com/josamcode/last-ecommerce-admin-dashboard",
-        "technologies": ["React", "Tailwind CSS", "Chart.js", "Redux"]
+        title: "Admin dashboard for ecommerce",
+        description:
+          "An admin dashboard for managing an e-commerce platform, featuring tools for product management, order tracking, and user administration.",
+        category: "web",
+        image: "web/josam-ecommerce-admin-dashboard.png",
+        link: "https://jo-e-ad.vercel.app/",
+        github: "https://github.com/josamcode/last-ecommerce-admin-dashboard",
+        technologies: ["React", "Tailwind CSS", "Chart.js", "Redux"],
       },
       {
-        "title": "Shiftswaper",
-        "description": "A platform that helps companies manage shift and day-off swaps between employees, ensuring efficient scheduling and communication.",
-        "category": "web",
-        "image": "web/shiftswaper.png", // Assuming there's an image for Shiftswaper
-        "link": "https://shiftswaper.vercel.app/", // Assuming there's a live link for Shiftswaper
-        "github": "https://github.com/josamcode/Shiftswaper", // Assuming there's a GitHub repo for Shiftswaper
-        "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
+        title: "Shiftswaper",
+        description:
+          "A platform that helps companies manage shift and day-off swaps between employees, ensuring efficient scheduling and communication.",
+        category: "web",
+        image: "web/shiftswaper.png", // Assuming there's an image for Shiftswaper
+        link: "https://shiftswaper.vercel.app/", // Assuming there's a live link for Shiftswaper
+        github: "https://github.com/josamcode/Shiftswaper", // Assuming there's a GitHub repo for Shiftswaper
+        technologies: [
+          "React",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+        ],
       },
       {
-        "title": "Cash logix",
-        "description": "An expense tracker application that helps users manage their finances by tracking income, expenses, and generating reports.",
-        "category": "web",
-        "image": "web/cash-logix.png",
-        "link": "https://cashlogix.vercel.app/dashboard",
-        "github": "https://github.com/josamcode/CashLogix-frontend",
-        "technologies": ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB"]
+        title: "Cash logix",
+        description:
+          "An expense tracker application that helps users manage their finances by tracking income, expenses, and generating reports.",
+        category: "web",
+        image: "web/cash-logix.png",
+        link: "https://cashlogix.vercel.app/dashboard",
+        github: "https://github.com/josamcode/CashLogix-frontend",
+        technologies: [
+          "React",
+          "Tailwind CSS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+        ],
       },
       {
-        "title": "Product Management System",
-        "description": "A web-based system for managing products, including features for adding, updating, deleting, and categorizing products.",
-        "category": "web",
-        "image": "web/product-management-system.webp",
-        "link": "https://josamcode.github.io/ProductManagementSystem/",
-        "github": "https://github.com/josamcode/ProductManagementSystem",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "Product Management System",
+        description:
+          "A web-based system for managing products, including features for adding, updating, deleting, and categorizing products.",
+        category: "web",
+        image: "web/product-management-system.webp",
+        link: "https://josamcode.github.io/ProductManagementSystem/",
+        github: "https://github.com/josamcode/ProductManagementSystem",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
-        "title": "Easy Landing Page",
-        "description": "A landing page for Easybank, highlighting their services such as online banking, budgeting, fast onboarding, and open API.",
-        "category": "web",
-        "image": "web/easybank-landing-page.webp",
-        "link": "https://josamcode.github.io/Easybank-landing-page/",
-        "github": "https://github.com/josamcode/Easybank-landing-page",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "Easy Landing Page",
+        description:
+          "A landing page for Easybank, highlighting their services such as online banking, budgeting, fast onboarding, and open API.",
+        category: "web",
+        image: "web/easybank-landing-page.webp",
+        link: "https://josamcode.github.io/Easybank-landing-page/",
+        github: "https://github.com/josamcode/Easybank-landing-page",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
-        "title": "To-do List",
-        "description": "A simple to-do list application that allows users to add, update, and delete tasks, with a clean and intuitive interface.",
-        "category": "web",
-        "image": "web/todo-list.webp",
-        "link": "https://josamcode.github.io/TodoList/",
-        "github": "https://github.com/josamcode/TodoList",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "To-do List",
+        description:
+          "A simple to-do list application that allows users to add, update, and delete tasks, with a clean and intuitive interface.",
+        category: "web",
+        image: "web/todo-list.webp",
+        link: "https://josamcode.github.io/TodoList/",
+        github: "https://github.com/josamcode/TodoList",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
-        "title": "Weather Application",
-        "description": "A weather application that provides real-time weather updates using the Weather API, with a user-friendly interface.",
-        "category": "web",
-        "image": "web/weather-application.webp",
-        "link": "https://josamcode.github.io/WeatherApplication/",
-        "github": "https://github.com/josamcode/WeatherApplication",
-        "technologies": ["HTML", "CSS", "JavaScript", "Weather API"]
+        title: "Weather Application",
+        description:
+          "A weather application that provides real-time weather updates using the Weather API, with a user-friendly interface.",
+        category: "web",
+        image: "web/weather-application.webp",
+        link: "https://josamcode.github.io/WeatherApplication/",
+        github: "https://github.com/josamcode/WeatherApplication",
+        technologies: ["HTML", "CSS", "JavaScript", "Weather API"],
       },
       {
-        "title": "Creative Web Agency",
-        "description": "A website for a creative web agency showcasing their services in web development, UI/UX design, and SEO optimization, along with testimonials and a portfolio.",
-        "category": "web",
-        "image": "web/creative-web-agency.webp",
-        "link": "https://josamcode.github.io/Creative-Web-Agency/",
-        "github": "https://github.com/josamcode/Creative-Web-Agency",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "Creative Web Agency",
+        description:
+          "A website for a creative web agency showcasing their services in web development, UI/UX design, and SEO optimization, along with testimonials and a portfolio.",
+        category: "web",
+        image: "web/creative-web-agency.webp",
+        link: "https://josamcode.github.io/Creative-Web-Agency/",
+        github: "https://github.com/josamcode/Creative-Web-Agency",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
-        "title": "Manage Landing Page",
-        "description": "A landing page for the Manage service, highlighting its features and benefits, with a focus on simplicity and ease of use.",
-        "category": "web",
-        "image": "web/manage-landing-page.webp",
-        "link": "https://josamcode.github.io/manage-landing-page/",
-        "github": "https://github.com/josamcode/manage-landing-page",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "Manage Landing Page",
+        description:
+          "A landing page for the Manage service, highlighting its features and benefits, with a focus on simplicity and ease of use.",
+        category: "web",
+        image: "web/manage-landing-page.webp",
+        link: "https://josamcode.github.io/manage-landing-page/",
+        github: "https://github.com/josamcode/manage-landing-page",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
-        "title": "Multi Step Form",
-        "description": "A multi-step form application that guides users through a series of steps to complete a task or submit information, with validation and progress tracking.",
-        "category": "web",
-        "image": "web/multi-step-form.webp",
-        "link": "https://josamcode.github.io/Multi-step-form/",
-        "github": "https://github.com/josamcode/Multi-step-form",
-        "technologies": ["HTML", "CSS", "JavaScript"]
+        title: "Multi Step Form",
+        description:
+          "A multi-step form application that guides users through a series of steps to complete a task or submit information, with validation and progress tracking.",
+        category: "web",
+        image: "web/multi-step-form.webp",
+        link: "https://josamcode.github.io/Multi-step-form/",
+        github: "https://github.com/josamcode/Multi-step-form",
+        technologies: ["HTML", "CSS", "JavaScript"],
       },
       {
         title: "Thumbnail",
         description: "Thumbnail",
         category: "design",
         image: "design/1.webp",
-        technologies: ["Photoshop", "Illustrator"]
+        technologies: ["Photoshop", "Illustrator"],
       },
       {
         title: "Burger design",
         description: "Burger design",
         category: "design",
         image: "design/2.webp",
-        technologies: ["Photoshop"]
+        technologies: ["Photoshop"],
       },
       {
         title: "Social media design",
         description: "Social media design",
         category: "design",
         image: "design/3.webp",
-        technologies: ["Photoshop", "Canva"]
+        technologies: ["Photoshop", "Canva"],
       },
       {
         title: "Logo design",
         description: "Logo design",
         category: "design",
         image: "design/4.webp",
-        technologies: ["Illustrator", "Photoshop"]
+        technologies: ["Illustrator", "Photoshop"],
       },
       {
         title: "Social media design",
         category: "design",
         image: "design/5.webp",
         description: "Social media design",
-        technologies: ["Photoshop", "Canva"]
+        technologies: ["Photoshop", "Canva"],
       },
       {
         title: "Jo logo design",
         description: "Jo logo design",
         category: "design",
         image: "design/6.webp",
-        technologies: ["Illustrator"]
+        technologies: ["Illustrator"],
       },
       {
         title: "Jo 2 logo design",
         description: "Jo 2 logo design",
         category: "design",
         image: "design/7.webp",
-        technologies: ["Illustrator"]
+        technologies: ["Illustrator"],
       },
       {
         title: "Social media design",
         description: "Social media design",
         category: "design",
         image: "design/8.webp",
-        technologies: ["Photoshop"]
+        technologies: ["Photoshop"],
       },
       {
         title: "Social media design",
         description: "Social media design",
         category: "design",
         image: "design/9.webp",
-        technologies: ["Photoshop"]
+        technologies: ["Photoshop"],
       },
       {
         title: "Social media design mockup",
         description: "Social media design mockup",
         category: "design",
         image: "design/10.webp",
-        technologies: ["Photoshop", "Mockup tools"]
+        technologies: ["Photoshop", "Mockup tools"],
       },
-    ]
-
+    ],
   },
   contact: {
     title: "dont be shy!",
@@ -277,17 +374,17 @@ export const portfolioData = {
     social: [
       {
         ariaLabel: "LinkedIn profile",
-        link: "https://www.linkedin.com/in/gerges-samuel  ",
+        link: "https://www.linkedin.com/in/gerges-samuel",
         icon: "linkedin",
       },
       {
         ariaLabel: "GitHub profile",
-        link: "https://github.com/josamcode  ",
+        link: "https://github.com/josamcode",
         icon: "github",
       },
       {
         ariaLabel: "Instagram account",
-        link: "https://www.instagram.com/gerges_s_gabra/  ",
+        link: "https://www.instagram.com/gerges_s_gabra/",
         icon: "instagram",
       },
       {
@@ -350,6 +447,6 @@ export const portfolioData = {
         likes: "87",
         featured: false,
       },
-    ]
+    ],
   },
 };
